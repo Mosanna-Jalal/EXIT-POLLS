@@ -30,8 +30,9 @@ if(aap>congress&&aap>bjp){
 else if(bjp>congress&&bjp>aap){
     final="BJP wins";
 }
-else{
-    final="INC wins";
+
+else if(congress==bjp||bjp==aap||aap==congress){
+    final="Tied for now.Vote more."
 }
 
 let result=document.getElementById("res");
