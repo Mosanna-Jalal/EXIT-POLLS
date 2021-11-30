@@ -1,0 +1,98 @@
+.all{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    
+}
+
+.general{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #EB984E;
+}
+
+.bjp{
+   background-repeat: no-repeat;
+   background-size: contain;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bharatiya_Janata_Party_logo.svg/1200px-Bharatiya_Janata_Party_logo.svg.png");
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.congress{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e6/Congresspartylogo%E2%80%A6.png");
+}
+
+.aap{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://images.indianexpress.com/2021/09/AAP.jpg");
+}
+
+.votes {
+    display: flex;
+    justify-content: space-around;
+    color: darkgreen;
+   
+}
+.buttons{
+    background-color: aliceblue;
+}
+.btn{
+
+    
+    background-color:#4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: darkgreen;
+}
+
+#result{
+    margin-top: 40px;
+    background-color: black ; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-self: center;
+    cursor: pointer;    
+    
+}
+.centerButton{
+    display: flex;
+    justify-content: center;
+}
+
+#result:hover{
+    background-color: darkgreen;
+}
+.heading{
+    background-color: forestgreen;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+#res{
+    text-align: center;
+    color:darkolivegreen;
+    margin-bottom: 500 px;
+}

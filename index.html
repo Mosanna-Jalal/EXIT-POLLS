@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Page</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+
+    <div class="heading">EXIT POLLS</div>
+    <div class="all">
+        <div  class="bjp general">
+            
+            
+        </div>
+        <div  class="congress general">
+           
+        </div>
+        <div class="aap general">
+            
+            
+        </div>
+    </div>
+    <div class="buttons">
+        <button onclick="handleBJP()" id="b" class="btn">vote for BJP</button>
+        <button onclick="handleCongress()" id="c" class="btn">vote for congress</button>
+        <button onclick="handleAAP()" id="a" class="btn">vote for AAP</button>
+
+    </div>
+    <div class="votes">
+        <code id="x">BJP votes</code>
+        <code id="y">INC votes</code>
+        <code id="z">AAP votes=</code>
+    </div>
+
+    <div class="centerButton">
+        <button id="result" onclick="handleResult()">result</button>
+    </div>
+    
+    <h2 id="res">click above button to get the result</h2>
+</body>
+<script src="script.js"></script>
+</html>
